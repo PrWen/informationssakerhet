@@ -1,0 +1,60 @@
+- Se över rutiner för  AD-konton
+	- Vilka har tillgång?
+	- Används 2FA/MFA för dessa?
+	- Finns det loggning av dessa konton?
+	- Implementera 2FA/MFA
+		-Behöver det övertygas personal för detta?
+	- Var förvaras datorer med åtkomst till AD fysiskt då dessa inte används?
+
+- Se över rutiner för övriga nyckelkonton
+	- Konton som hanterar pengatransaktioner
+		- Vilka har tillgång?
+		- Används 2FA/MFA för dessa?
+		- Går det att implementera 2FA/MFA?
+			- Övertyga personal om vikten av detta?
+		- Är en specifik dator för uppgiften aktuell?
+			- Radera risken för phishing
+	- Service-desk konton
+		- Vilka behörigheter är ett minimum?
+		- Överskrids dessa i nuvarande behörighet?
+		- Revidering av behörighet?
+
+- Hur ser nuvarande it-säkerhetsskydd ut
+	- Nätverksskydd?
+		- Separering av nätverk?
+		- VPN
+		- DMZ?
+		- Brandvägg
+	- Loggning av nätverk?
+	- IPS?
+	- IDS?
+	- SC?
+	- Honeypot?
+
+- Incident response Plan(Contingency Plan)
+	- Finns identifierade risker?
+	- Finns IRP?
+	- Vilka kritiska risker bör en sådan inrättas för?
+		- Finns kommunikationslänk/direktlinje till MSB-CERT?
+
+- Threat Modelling
+
+- Tidigare penetrationstester?
+	- Finns rapporter?
+	- Är en ny aktuell att köpa in?
+
+- Klassificering av information
+	- Information som är skyddsvärd men ej digital
+		- Hur skyddas dessa?
+		- Vilka har åtkomst?
+		- Finns det ett "ägande" av informationen?
+
+	- Digital information som är skyddsvärd
+		- Hur skyddas dessa?
+		- Vilka har åtkomst?
+		- Finns det ett "ägande" av informationen?
+
+	- Personuppgifter
+		- Hur skyddas dessa?                       	
+        	- Vilka har åtkomst?
+        	- Finns det ett "ägande" av informationen?
