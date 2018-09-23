@@ -1,0 +1,7 @@
+- Se över rutiner för  AD-konton
+	- Vilka har tillgång?
+	- Används 2FA/MFA för dessa?
+	- Finns det loggning av dessa konton?
+	- Implementera 2FA/MFA
+		-Behöver det övertygas personal för detta?
+	- Var förvaras datorer med åtkomst till AD fysiskt då dessa inte används?
